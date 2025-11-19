@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interface_пр12_Ерилеев.Models
 {
-    internal class Users
+    public class Users
     {
         public int Id { get; set; }
         public string FIO { get; set; }
