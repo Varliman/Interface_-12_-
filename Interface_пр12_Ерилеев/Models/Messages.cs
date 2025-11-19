@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Interface_пр12_Ерилеев.Interfaces;
+using System;
+using System.Windows.Forms;
 
 namespace Interface_пр12_Ерилеев.Models
 {
@@ -14,6 +12,11 @@ namespace Interface_пр12_Ерилеев.Models
         public int IdUser { get; set; }
         public Messages() { }
 
-        public Messages(string Message, DateTime Create, int IdUser) { }
+        public Messages(string Message, DateTime Create, int IdUser) 
+        {
+            this.Message = Message;
+            this.Create = Create;
+            this.IdUser = IdUser;
+        }
     }
 }

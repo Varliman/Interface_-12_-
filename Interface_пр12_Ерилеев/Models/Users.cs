@@ -12,6 +12,10 @@ namespace Interface_пр12_Ерилеев.Models
         public string FIO { get; set; }
 
         public Users() { }
-        public Users(int id, string FIO) { }
+        public Users(int id, string fIO) 
+        {
+            this.Id = id;
+            this.FIO = fIO;
+        }
     }
 }

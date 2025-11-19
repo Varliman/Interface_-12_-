@@ -31,7 +31,7 @@ namespace Interface_пр12_Ерилеев.Elements
             // Вызываем метод удаления в реализующем классе
             ThisMessage.Delete();
             // Удаляем с UI
-            ((MainWindow)System.Windows.Application.Current.MainWindow).parentMessage.Children.Remove(this);
+            ((MainWindow)System.Windows.Application.Current.MainWindow).ParentMessage.Children.Remove(this);
 
         }
     }
