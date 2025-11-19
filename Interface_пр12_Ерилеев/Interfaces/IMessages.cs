@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Interface_пр12_Ерилеев.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace Interface_пр12_Ерилеев.Interfaces
 {
     internal interface IMessages
     {
-        void All(out List<IMessages> Messages);
+        void All(out List<Messages> Messages);
         void Save(bool Update = false);
         void Delete();
     }

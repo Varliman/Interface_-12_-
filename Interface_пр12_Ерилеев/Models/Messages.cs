@@ -11,9 +11,9 @@ namespace Interface_пр12_Ерилеев.Models
         public int Id { get; set; }
         public string Message { get; set; }
         public DateTime Create { get; set; }
-        public int Id_User { get; set; }
+        public int IdUser { get; set; }
         public Messages() { }
 
-        public Messages(string Message, DateTime Create, int Id_User) { }
+        public Messages(string Message, DateTime Create, int IdUser) { }
     }
 }
